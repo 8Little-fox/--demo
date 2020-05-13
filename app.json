@@ -1,0 +1,58 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/picture/picture",
+		"pages/video/video",
+		"pages/map/map",
+		"pages/info/info",
+		"pages/picker/picker",
+		"pages/subscribe/subscribe "
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ee0808",
+		"navigationBarTitleText": "相约辽金",
+		"navigationBarTextStyle": "white",
+		"enablePullDownRefresh": false
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#ee0808",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "icon/invite.png",
+				"selectedIconPath": "icon/invite-s.png",
+				"text": "开学函"
+			},
+			{
+				"pagePath": "pages/picture/picture",
+				"iconPath": "icon/pic.png",
+				"selectedIconPath": "icon/pic-s.png",
+				"text": "学院美景"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"iconPath": "icon/video.png",
+				"selectedIconPath": "icon/video-s.png",
+				"text": "校园时光"
+			},
+			{
+				"pagePath": "pages/map/map",
+				"iconPath": "icon/map.png",
+				"selectedIconPath": "icon/map-s.png",
+				"text": "辽金地址"
+			},
+			{
+				"pagePath": "pages/info/info",
+				"iconPath": "icon/info.png",
+				"selectedIconPath": "icon/info-s.png",
+				"text": "信息登记"
+			}
+		]
+	},
+	"requiredBackgroundModes":["audio"],
+	"sitemapLocation": "sitemap.json"
+}

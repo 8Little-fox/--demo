@@ -1,0 +1,22 @@
+/* pages/info/info.wxss */
+#bg{
+  width: 100vw;
+  height: 100vh;
+}
+.content{
+  width: 80vw;
+  position: fixed;
+  left: 10vw;
+  bottom: 10vh;
+}
+.content >view{
+  font-size: 2.8vh;
+  border: 1rpx solid white;
+  padding: 1.5vh 40rpx;
+  margin-bottom: 1.5vh;
+  border-radius: 30rpx;
+  color: white;
+}
+.content .phcolor{
+  color: #edfaf4;
+}

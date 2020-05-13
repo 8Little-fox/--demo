@@ -1,0 +1,37 @@
+<!--index.wxml-->
+
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play">
+	<image src="images/music_icon.png"></image>
+	<image src="images/music_play.png"></image>
+</view>
+	<image class="bg"  src="/icon/header.png"></image>
+<!-- <image class="bg" src="images/bg_1.png"></image>
+<view class="content">
+<image class="content-gif" src="images/save_the_date.gif"></image>
+<view class="content-title">开学函</view>
+
+<view class="content-avatar">
+	<image src="images/logo.jpg"></image>
+</view>
+
+<view class="content-info">
+	<view class="content-name" bindtap="callDirector">
+		<image src="images/tel.png" />
+		<view>张述平</view>
+		<view>院长</view>
+	</view>
+	<view class="content-meet" >
+		<image src="images/welcome.png"></image>
+	</view>
+	<view class="content-name" bindtap="callSecretary">
+		<image src="images/tel.png"></image>
+		<view>金  峰</view>
+		<view>书记</view>
+		</view>
+</view>
+<view class="content-address" >
+<view>辽金等你</view>
+<view>2020年6月1日</view>
+<view>相约辽金 不见不散</view>
+</view> 
+</view> -->

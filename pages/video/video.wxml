@@ -1,0 +1,9 @@
+<!--pages/video/video.wxml-->
+
+<video id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+<view class="danmu">
+<input class="danmu-input" bindblur="bindInputBlur" placeholder="输入弹幕" />
+<button bindtap="bindSendDanmu">发送弹幕</button>
+</view>
+
+

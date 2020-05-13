@@ -1,0 +1,15 @@
+/* pages/video/video.wxss */
+#myVideo{
+	width: 100%;
+}
+.danmu{
+	margin: 10rpx 20rpx;
+	display: flex;
+	flex-direction: column;
+}
+.danmu-input{
+	border: solid 4rpx #ff4c91;
+	border-radius: 20rpx;
+	padding: 10rpx;
+	margin-bottom: 20rpx;
+}
